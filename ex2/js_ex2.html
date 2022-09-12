@@ -1,0 +1,39 @@
+<!--JavaScript by Aj.Nest the Series  -->
+<!-- Ex2: Insert Javascript -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Ex2</title>
+    <!-- Ex2.1: JavaScript in <head> -->
+        <script>
+            function myFunctionEx2_1(){
+                document.getElementById("ex2-1").innerHTML = "[Head] Aj.Nest the Series ✈ "
+            }
+        </script>
+</head>
+<body>
+    <h2>JavaScript Ex2: Insert JavaScript</h2>
+    <!-- Ex2.1: html-1 -->
+    <p id="ex2-1">What is your name?</p>
+    <button type="button" onclick="myFunctionEx2_1()">Answer1</button>
+
+    <!-- Ex2.2: html-2 -->
+    <p id="ex2-2">what are you doing?</p>
+    <button type="button" onclick="myFunctionE2_2()">Answer2</button>
+    <!-- Ex2.2: JavaScript in <body> -->
+    <script>
+        function myFunctionE2_2(){
+            document.getElementById("ex2-2").innerHTML = "[Body] I'm studying JavaScript Programming 💻 ."
+        }
+    </script>
+
+    <!-- Ex2.3: html-3 -->
+    <p id="ex2-3">How are you feeling?</p>
+    <button type="button" onclick="myFunctionEx2_3()">Answer3</button>
+    <!-- Ex2.3: JavaScript in an External file -->
+    <script src="/ex2/js_ex2.js"></script>
+</body>
+</html>
