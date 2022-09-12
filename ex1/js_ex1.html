@@ -1,0 +1,34 @@
+<!-- Javascript by Aj.NesT the Series-->
+<!--Ex1: Start JS Tutorial-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Ex1</title>
+</head>
+<body>
+    <h2>Javascript Ex1: Start JS Tutorial</h2>
+    <!--Ex.1.1: Javascript control HTML Content-->
+    <p id="ex1-1">Ex1.1 Change HTML Content</p>
+    <button onclick='document.getElementById("ex1-1").innerHTML ="Ex1.1 Hello Javascript in HTML Content!"'>Click Me!</button>
+    
+    <!--Ex.1.2: Javascript control HTML Attribute Values-->
+    <p>Ex1.1 Change HTML Attribute Values</p>
+    <button onclick="document.getElementById('myImage').src='/assets/OpenEyes.jpg'">Open Eyes</button>
+    <img id="myImage" src="/assets/CloseEyes.jpg" style="width: 100px;" />
+    <button onclick="document.getElementById('myImage').src='/assets/CloseEyes.jpg'">Close Eyes</button>
+
+    <!-- Ex.1.3: Javascript control HTML Inline CSS Style -->
+    <p>Ex1.3 Change Inlines CSS Style.</p>
+    <p id="ex1-3">Change Inline CSS Style.</p>
+    <button onclick="document.getElementById('ex1-3').style.fontSize='30px'">Change Size</button>
+
+    <!-- Ex1.4: Javascript Control HTML Elements -->
+    <p>Ex1.4 Hide & Show HTML Elements</p>
+    <p id="ex1-4">Hide & Show HTML Elements</p>
+    <button onclick="document.getElementById('ex1-4').style.display='none'">Hide</button>
+    <button onclick="document.getElementById('ex1-4').style.display='block'">Show</button>
+</body>
+</html>
