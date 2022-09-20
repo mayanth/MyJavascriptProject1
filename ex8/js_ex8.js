@@ -25,7 +25,7 @@ const person = {
     eyeColor  : "blue"
   };
 document.getElementById("ex8-4").innerHTML =
-person.firstName + " " + person.lastName + " is " + person.age + " years old.";
+person.firstName + " " + person.lastName + " is " + person.age + " years old" + " " +  person.eyeColor + " " + "Eye Color.";
 
 //Ex8.5: Check Types of Strings and Numbers
 document.getElementById("ex8-5").innerHTML = typeof "Javascript Man" + "<br>" + typeof 3.14 + "<br>" + typeof (3.14);
@@ -39,5 +39,4 @@ let var4 = "Lamborghini";
 document.getElementById("ex8-6-1").innerHTML = var1;
 document.getElementById("ex8-6-2").innerHTML = var2 + "<br>" + typeof var2;
 document.getElementById("ex8-6-3").innerHTML = "var3 is " + var3 + "<br>" + typeof var3;
-
 document.getElementById("ex8-6-4").innerHTML = "var4 is " + var4 + "<br>" + typeof var4;
